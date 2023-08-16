@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap);
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Fredoka';
+}
+
+#background_img img {
+    opacity: 20%;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: block;
+    object-fit: cover;
+}
+
+#cabecalho {
+    background-color: #F4AC32;
+    height: 150px;
+    position: relative;
+}
+
+#icone_cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icone_cabecalho img {
+    width: 70px;
+    padding-top: 40px;
+}
+
+#login {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: -500px;
+    position: relative;
+}
+
+#conteudo_login h1 {
+    font-family: 'Fredoka';
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: 500px;
+}
+
+#inputs_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#inputs_login input {
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid #F4AC32;
+    margin: 10px;
+    font-family: 'Fredoka';
+    padding: 10px;
+    font-weight: bold;
+}
+
+#input_enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ipt_enviar {
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F4AC32;
+    margin: 10px;
+    font-family: 'Fredoka';
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#esquecer_senha a {
+    color: black;
+    font-family: 'Fredoka';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#continuar_login {
+    padding-top: 25px;
+}
+
+#cont_facebook {
+    width: 160px;
+    height: 38px;
+    border-radius: 20px;
+    border: none;
+    background-color: #006AFF;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#cont_facebook a {
+    font-family: 'Fredoka';
+    color: white;
+    font-size: 11px;
+    padding-left: 7px;
+}
+
+.cont_btn {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+
+#cont_google {
+    width: 160px;
+    height: 38px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color:#FAF9F6;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#cont_google a {
+    font-family: 'Fredoka';
+    color: gray;
+    font-size: 11px;
+    padding-left: 7px;
+}
+
+#criar_conta {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#criar_conta h3 {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: 'Fredoka';
+    font-weight: bold;
+}
+
+footer {
+    background-color: #006AFF;
+    color: #F4AC32;
+    padding: 10px;
+}
